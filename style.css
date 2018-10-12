@@ -1,0 +1,272 @@
+.logo > img {       
+     height:100px; 
+     margin-left: -37%;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: #363945;
+    align-items: center;
+    height: 100px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-self: center;
+    justify-content:space-around;
+    
+}
+.menu{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: #363945;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+    
+}
+.menu1{
+    display : flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 139%;
+    
+}
+.menu2{
+    display : flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 139%;    
+}
+.log {
+    display: flex;
+    justify-content: space-between;   
+    width: 15%;
+    margin-right: -5%;
+}
+.block{
+    display:flex;
+    flex-direction:column;
+    justify-content:stretch;
+}
+    .block1{
+        background-color : rosybrown;
+        /* border: 2px solid green;  */
+        Display:flex;
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+        .petit1{
+            position: relative;
+            /* border: 3px solid #73AD21; */
+        }
+        .watch-video{
+            position: absolute;
+            /* border: 3px solid #73AD21; */
+            left:0px;
+            top:3px;
+            width: 50%;
+            height: 75%;
+            font-family: "Walsheim", sans-serif;
+
+        }
+        .button1{
+            width: 200px;
+            height:80px ;
+            background: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 35px;
+            font-size: 20px;
+        }
+        .video-block1{
+            position: absolute;
+            right: 7%;
+            top:3%;
+            /* width: 50%; */
+            height: 80%;
+            /* border: 2px solid green;  */
+            border-style: none;
+        }
+    .block2{
+        background-color : rgb(202, 184, 25);
+        /* border: 2px solid green; */
+        display:flex;
+        /* width: 100%; */
+        height: 600px;
+        flex-direction:row;
+        /* justify-content: stretch; */
+        flex-wrap: wrap;
+        font-family: "Walsheim", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        
+        
+
+    }
+        .block2-petit1{
+            background-color :#FED24A;
+            /* border: 2px solid green;  */
+            width: 31%;
+            padding-left: 2%;
+            padding-top: 6%;
+            font-family: "Walsheim", sans-serif;
+        }
+        .block2-petit2{
+            background-color :#51C29F;
+            /* border: 2px solid rgb(6, 182, 15);  */
+            width: 31%;
+            padding-left: 2%;
+            padding-top: 6%;
+            font-family: "Walsheim", sans-serif;
+
+        }
+        .block2-petit3{
+            background-color : #3EA9F5;
+            /* border: 2px solid rgba(198, 252, 3, 0.747); */
+            width: 32%;
+            padding-left: 2%;
+            padding-top: 6%;
+            font-family: "Walsheim", sans-serif;
+        }
+
+        .button2{
+            width: 200px;
+            height:80px ;
+            background: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .button3{
+            margin-top: 3px;
+        }
+    .block3{
+        background-color : rgb(255, 255, 255);
+        /* border: 2px solid green; */
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .petit1-block3{font-family: "Walsheim", sans-serif;}
+    .petit2-block3{}
+    .petit3-block3{}
+    .petit4-block3{}
+    .petit5-block3{}
+    .petit6-block3{width:15%;}
+        .img1 {
+            width:100%;
+        }
+        .img2 {
+            width:100%;
+        }
+        .img3 {
+            width:100%;
+        }
+        .img4 {
+            width:100%;
+        }
+        .img5 {
+            width:100%;
+        }
+
+.block4{
+    background-color : rgb(255, 255, 255);
+    /* border: 2px solid green;  */
+    display:flex; 
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    /* align-items: center; */
+    justify-content: space-around;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+    .img6 {width:100%;}
+    .img7 {width:100%;}
+    .img8 {width:100%;}
+    .petit1-block4{ width:30%; font-family: "Walsheim", sans-serif; }
+    .petit2-block4{ width:30%; font-family: "Walsheim", sans-serif; }
+    .petit3-block4{ width:30%; font-family: "Walsheim", sans-serif; }
+    
+        
+.block5{
+    height: 460px;
+     
+}
+
+.petit1-block5{
+    background-color :#e8e7e6;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    color: #777777;
+    font-size: 20px;
+    font-family: "Walsheim", sans-serif;
+
+}
+.petit2-block5{
+    background-color : #2A2D35;
+    /* border: 2px solid green;  */
+    width: 100%;
+    height: 400px;
+}
+.petit1-5{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+.img9{
+    width: 40px;
+}
+.petit2-5{
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    margin-left: -11%;
+    margin-top: 5%;
+
+}
+.footer-block5{
+    display:flex;
+    height: 77%;
+    font-family: "Walsheim", sans-serif;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+.block2{
+        background-color : rgb(202, 184, 25);
+        /* border: 2px solid green; */
+        display:flex;
+        /* width: 100%; */
+        height: 200px;
+        flex-direction:column;
+        font-family: "Walsheim", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        
+
+    }
+}
